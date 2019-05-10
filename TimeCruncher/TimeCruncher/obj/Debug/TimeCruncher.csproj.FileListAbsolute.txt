@@ -8,3 +8,13 @@ C:\Users\Mike\Documents\Projects\TimeCruncher\TimeCruncher\obj\Debug\TimeCrunche
 C:\Users\Mike\Documents\Projects\TimeCruncher\TimeCruncher\obj\Debug\TimeCruncher.csproj.CoreCompileInputs.cache
 C:\Users\Mike\Documents\Projects\TimeCruncher\TimeCruncher\obj\Debug\TimeCruncher.exe
 C:\Users\Mike\Documents\Projects\TimeCruncher\TimeCruncher\obj\Debug\TimeCruncher.pdb
+C:\Users\Mike\Documents\Projects\SimpleTimeCruncher\TimeCruncher\TimeCruncher\bin\Debug\TimeCruncher.exe.config
+C:\Users\Mike\Documents\Projects\SimpleTimeCruncher\TimeCruncher\TimeCruncher\bin\Debug\TimeCruncher.exe
+C:\Users\Mike\Documents\Projects\SimpleTimeCruncher\TimeCruncher\TimeCruncher\bin\Debug\TimeCruncher.pdb
+C:\Users\Mike\Documents\Projects\SimpleTimeCruncher\TimeCruncher\TimeCruncher\obj\Debug\TimeCruncher.csprojAssemblyReference.cache
+C:\Users\Mike\Documents\Projects\SimpleTimeCruncher\TimeCruncher\TimeCruncher\obj\Debug\TimeCruncher.Form1.resources
+C:\Users\Mike\Documents\Projects\SimpleTimeCruncher\TimeCruncher\TimeCruncher\obj\Debug\TimeCruncher.Properties.Resources.resources
+C:\Users\Mike\Documents\Projects\SimpleTimeCruncher\TimeCruncher\TimeCruncher\obj\Debug\TimeCruncher.csproj.GenerateResource.cache
+C:\Users\Mike\Documents\Projects\SimpleTimeCruncher\TimeCruncher\TimeCruncher\obj\Debug\TimeCruncher.csproj.CoreCompileInputs.cache
+C:\Users\Mike\Documents\Projects\SimpleTimeCruncher\TimeCruncher\TimeCruncher\obj\Debug\TimeCruncher.exe
+C:\Users\Mike\Documents\Projects\SimpleTimeCruncher\TimeCruncher\TimeCruncher\obj\Debug\TimeCruncher.pdb
