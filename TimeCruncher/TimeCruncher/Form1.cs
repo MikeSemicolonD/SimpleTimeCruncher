@@ -29,22 +29,24 @@ namespace TimeCruncher
         }
 
         /// <summary>
-        /// If the 'Disregard Total Days' box is checked, recalculate to get the new total
+        /// If the state of the 'Disregard Total Days' check box changed, recalculate to get the new total
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void CheckBox1_Click(object sender, EventArgs e)
+        private void CheckBox1_CheckedChanged(object sender, EventArgs e)
         {
-            CalculateTotalTime();
+            CalculateTotalTime(true);
         }
 
         /// <summary>
         /// Updates the UI on the window with results, using data inputted by the user
+        /// Can be force to recalculate, ignoring the initial string check
         /// </summary>
-        private void CalculateTotalTime()
+        /// <param name="forceIt"></param>
+        private void CalculateTotalTime(bool forceIt = false)
         {
             //recalculate if no original
-            if (originalText != textBox1.Text)
+            if (!textBox1.Text.Equals(originalText, StringComparison.Ordinal) || forceIt)
             {
                 originalText = textBox1.Text.ToLower();
 
@@ -92,6 +94,11 @@ namespace TimeCruncher
             {
                 days += Multiple(hours, 24);
                 hours %= 24;
+            }
+            else
+            {
+                hours += (days * 24);
+                days = 0;
             }
 
             return ((days != 0) ? days.ToString() + " Day(s) " : "") +
